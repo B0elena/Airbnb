@@ -1,0 +1,447 @@
+/* ヘッダー */
+.head-image {
+  background-image: url(../img/a-image10.jpg);
+  background-size: cover;
+  height: 240px;
+}
+
+.head-image p {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+  padding-top: 140px;
+  margin:0 20px;
+}
+
+/* 宿泊施設の内容を記入 */
+.form-title {
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 26px 20px 0;
+}
+
+select {
+  display: block;
+}
+
+input {
+  font-size: 15px;
+  width: 93%;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+[value] {
+  margin: 10px 20px;
+  padding-left: 13px;
+}
+
+.room-type {
+  font-size: 15px;
+  color: #666;
+  width: 93%;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin: 0 20px;
+}
+
+.guest {
+  font-size: 15px;
+  color: #666;
+  width: 93%;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin: 10px 20px;
+}
+
+button {
+  font-size: 15px;
+  color: #fff;
+  width: 93%;
+  height: 48px;
+  margin: 15px 20px 50px;
+  background: #D70466;
+  border: 1px solid #D70466;
+  border-radius: 10px;
+}
+/* 宿泊施設の内容を記入 */
+/* ヘッダー */
+
+/* メイン */
+/* Airbnbでホストするこれだけの理由 */
+.reason {
+  width: 93%;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.reason-a > h1{
+  font-size: 23px;
+  color: #444;
+}
+
+.reason-a > p {
+  font-size: 16px;
+  color: #666;
+  line-height: 23px;
+  margin-top: 20px;
+}
+
+.reason-b {
+  margin-top: 40px;
+}
+
+.reason-b > h1 {
+  font-size: 23px;
+  color: #444;
+}
+
+.reason-b >p {
+  font-size: 16px;
+  color: #666;
+  line-height: 23px;
+  margin-top: 20px;
+}
+/* Airbnbでホストするこれだけの理由 */
+
+.line {
+  width: 65px;
+  margin-left: 25px;
+  border: 1px solid #666;
+}
+
+/* 3ステップでホスティング */
+.hosting {
+  width: 93%;
+  margin: 20px auto 50px;
+}
+
+.hosting > div {
+  margin-bottom: 100px;
+}
+
+.hosting > h1 {
+  font-size: 38px;
+  margin-bottom: 37px;
+}
+
+.hosting-a {
+  margin-bottom: 50px;
+}
+
+.hosting-a > h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.hosting-a > p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.hosting-a > a {
+  color: #008489;
+  font-size: 16px;
+}
+
+.hosting-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.k-image {
+  background-color: orange;
+  border-radius: 100%;
+}
+
+.hosting-b > p {
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+
+.hosting-b > div {
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.hosting-b > a {
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 14px 22px;
+  border: 2px solid ;
+  border-radius: 4px;
+}
+/* 3ステップでホスティング */
+
+/* 万一のときも安心です */
+.support {
+  width: 93%;
+  margin: 20px auto 90px;
+}
+
+.support > h1 {
+  font-size: 38px;
+  margin-bottom: 42px;
+  }
+
+.support-a {
+  margin-bottom: 30px;
+}
+
+.support-a > p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.support-a > a {
+  color: #008489;
+  font-size: 16px;
+}
+
+.support-lists {
+  margin-bottom: 80px;
+}
+
+.support-lists > li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.support-lists > li > b {
+  color: #008489;
+}
+
+.support-image > div {
+  width: 100%;
+  height: 100%;
+  padding-top: 100%;
+  background-image: url(../img/a-image6.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+/* 万一のときも安心です */
+
+/* シンプルな決済 */
+.payment {
+  width: 93%;
+  margin: 20px auto 110px;
+}
+
+.payment > h1 {
+  font-size: 39px;
+  margin-bottom: 37px;
+}
+
+.payment > div {
+  margin-bottom: 40px;
+}
+
+.payment > div:nth-child(4) {
+  margin-bottom: 100px;
+}
+
+.payment > div > h2 {
+  font-size: 23px;
+  margin-bottom: 16px;
+}
+
+.payment > div > p {
+  font-size: 16px;
+}
+
+.payment > div > a {
+  font-size: 16px;
+  color: #008489;
+  display: block;
+  padding-top: 20px;
+}
+
+.payment-image > div {
+  width: 100%;
+  height: 100%;
+  padding-top: 100%;
+  background-image: url(../img/a-image2.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.payment-a > img {
+  margin-top: 10px;
+}
+
+.payment-a > h1 {
+  font-size: 19px;
+  font-weight: normal;
+  margin-bottom: 17px;
+}
+.payment-a > p {
+  color: #999;
+  margin-bottom: 30px;
+}
+.payment-a > a {
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 14px 22px;
+  border: 2px solid ;
+  border-radius: 4px;
+}
+/* シンプルな決済 */
+
+/* Airbnbについて */
+.about {
+  width: 93%;
+  margin: 20px auto 110px;
+}
+
+.about > h1 {
+  font-size: 37px;
+  margin-bottom: 37px;
+}
+
+.about-a {
+  margin-bottom: 30px;
+}
+
+.about-a > h2 {
+  font-size: 23px;
+  color: #444;
+}
+
+.about-a > p {
+  font-size: 16px;
+  color: #666;
+  line-height: 23px;
+  margin-top: 20px;
+}
+
+.about-a > a {
+  color: #008489;
+  font-size: 16px;
+  display: block;
+  padding-top: 20px;
+}
+/* Airbnbについて */
+
+/* よくある質問 */
+.question {
+  width: 93%;
+  margin: 20px auto 110px;
+}
+
+.question-a {
+  margin-bottom: 70px;
+}
+
+.question-a > h1 {
+  font-size: 39px;
+  margin-bottom: 37px;
+}
+
+.question-a > a {
+  display: block;
+  color: #008489;
+  font-size: 16px;
+  padding: 25px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.question-b {
+  
+}
+
+.question-b > h2 {
+  font-size: 24px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.hosting-show {
+  display: flex;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+  margin: 15px 0;
+}
+
+.hosting-show-a {
+  background-image: url(../img/a-image4.jpg);
+  background-size: cover;
+  background-position-x: center;
+  height: 80px;
+  width: 80px;
+}
+
+.hosting-show-b {
+  background-image: url(../img/a-image5.jpg);
+  background-size: cover;
+  background-position-x: center;
+  height: 80px;
+  width: 80px;
+}
+
+.hosting-show-c{
+  background-image: url(../img/a-image1.jpg);
+  background-size: cover;
+  background-position-x: center;
+  height: 80px;
+  width: 80px;
+}
+
+.hosting-show-content {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.hosting-show-content > h3 {
+  font-size: 14px;
+}
+
+.hosting-show-content > p {
+  color: #444;
+}
+/* よくある質問 */
+
+/* 収益化してみますか？ */
+.start {
+  margin-bottom: 30px;
+}
+
+.start-a {
+  background-image: url(../img/a-image10.jpg);
+  height: 370px;
+}
+
+.start-a > p {
+  font-size: 37px;
+  font-weight: bold;
+  line-height: 37px;
+  width: 300px;
+  color: white;
+  padding-top: 70px;
+  margin:0 35px;
+}
+
+.start-a > a {
+  display: block;
+  width: 110px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+  padding: 11px 20px;
+  margin: 35px;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+}
+/* 収益化してみますか？ */
+/* メイン */
+
+/* フッター */
+/* フッター */
