@@ -89,6 +89,7 @@
     height: 276px;
   }
   /* 3ステップでホスティング */
+
   /* 万一のときも安心です */
   .support {
     width: 600px;
@@ -106,6 +107,7 @@
     background-repeat: no-repeat;
   }
   /* 万一のときも安心です */
+
   /* シンプルな決済 */
   .payment {
     width: 550px;
@@ -126,6 +128,7 @@
     margin-right: 35px;
   }
   /* シンプルな決済 */
+
   /* Airbnbについて */
   .about {
     width: 550px;
@@ -137,6 +140,7 @@
     margin: 20px 0 37px 140px;
   }
   /* Airbnbについて */
+
   /* よくある質問 */
   .question {
     width: 650px;
@@ -173,6 +177,7 @@
     padding : 20px;
   }
   /* よくある質問 */
+
   /* 収益化してみますか？ */
   .start-a {
     height: 430px;
@@ -231,6 +236,7 @@
     width: 33%;
   }
   /* リンク */
+  
   /* コピーライト */
   .footer-info-b {
     text-align: center;
@@ -252,8 +258,3 @@
 }
 /* medium screen */
 
-/* large screen */
-  @media (min-width: 1128px) {
-  
-  }
-/* large screen */
