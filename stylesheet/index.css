@@ -352,10 +352,6 @@ button {
   border-bottom: 1px solid #eee;
 }
 
-.question-b {
-  
-}
-
 .question-b > h2 {
   font-size: 24px;
   color: #444;
@@ -410,11 +406,11 @@ button {
 
 /* 収益化してみますか？ */
 .start {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .start-a {
-  background-image: url(../img/a-image10.jpg);
+  background-image: url(../img/a-image12.jpg);
   height: 370px;
 }
 
@@ -444,4 +440,121 @@ button {
 /* メイン */
 
 /* フッター */
+/* リンク */
+footer {
+  border-top: 1px solid #ddd;
+  background: rgb(251, 251, 251);
+}
+
+.footer-info-a {
+  width: 93%;
+  margin: auto;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.company-info > h1 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.company-info li {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.community-info {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.community-info > h1 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.community-info li {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.host-info {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.host-info > h1 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.host-info li {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.support-info {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.support-info > h1 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.support-info li {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+/* リンク */
+
+/* コピーライト */
+.footer-info-b {
+  width: 93%;
+  margin: 25px auto ;
+}
+
+.jp {
+  margin: 20px 0;
+}
+
+.jp > a {
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.jp > a > span {
+  text-decoration: underline;
+}
+
+.agsl div {
+  display: inline;
+  font-size: 13px;
+}
+
+.copyright {
+  font-size: 13px;
+}
+
+.copyright > ul {
+  display: flex;
+  font-size: 14px;
+}
+/* コピーライト */
 /* フッター */
