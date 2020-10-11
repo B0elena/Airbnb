@@ -1,11 +1,259 @@
 /* medium screen */
-@media (min-width: 744) {
+@media (min-width: 744px) {
+  /* ヘッダー */
+  .head-image {
+    height: 313px;
+  }
+
+  .head-image p {
+    font-size: 38px;
+    padding-top: 210px;
+    margin:0 90px;
+  }
+
+  /* 宿泊施設の内容を記入 */
+  .form-title {
+    font-size: 16px;
+    margin: 21px 113px 0;
+  }
+
+  form {
+    width: 80%;
+    margin: auto;
+  }
   
+  input {
+    height: 45px;
+  }
+  
+  .form-select {
+    display: flex;
+    height: 45px;
+    margin-bottom: 25px;
+  }
+
+  .room-type {
+    width: 60%;
+    height: 45px;
+    margin: 0 20px;
+  }
+  
+  .guest {
+    width: 40%;
+    height: 45px;
+    margin: 0 4% 0 0;
+  }
+  /* 宿泊施設の内容を記入 */
+  /* ヘッダー */
+
+  /* メイン */
+  /* Airbnbでホストするこれだけの理由 */
+  .reason {
+    width: 60%;
+    margin-bottom: 100px;
+  }
+
+  .reason > div {
+    width: 550px;
+    margin: auto;
+  }
+  /* Airbnbでホストするこれだけの理由 */
+  .line {
+    margin: auto;
+  }
+  /* 3ステップでホスティング */
+  .hosting {
+    width: 550px;
+    margin: auto;
+  }
+
+  .hosting > h1 {
+    font-size: 38px;
+    margin: 20px 0 37px 55px;
+  }
+
+  .hosting-b-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .hosting-b {
+    width: 700px;
+    order: -1;
+    margin-right: 50px;
+  }
+
+  .hosting-image > img {
+    width: 276px;
+    height: 276px;
+  }
+  /* 3ステップでホスティング */
+  /* 万一のときも安心です */
+  .support {
+    width: 600px;
+    margin: 20px auto 90px;
+  }
+  .support > h1 {
+    font-size: 38px;
+    margin: 20px 0 37px 100px;
+    }
+
+  .support-image > div {
+    padding: 30%;
+    background-image: url(../img/a-image6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  /* 万一のときも安心です */
+  /* シンプルな決済 */
+  .payment {
+    width: 550px;
+    margin: 20px auto 120px;
+  }
+
+  .payment > h1 {
+    font-size: 38px;
+    margin: 20px 0 37px 140px;
+  }
+
+  .payment-a-info {
+    display: flex;
+  }
+
+  .payment-image > div {
+    width: 287px;
+    margin-right: 35px;
+  }
+  /* シンプルな決済 */
+  /* Airbnbについて */
+  .about {
+    width: 550px;
+    margin: 20px auto 110px;
+  }
+
+  .about > h1 {
+    font-size: 38px;
+    margin: 20px 0 37px 140px;
+  }
+  /* Airbnbについて */
+  /* よくある質問 */
+  .question {
+    width: 650px;
+    margin: 20px auto 110px;
+  }
+
+  .question-a > h1 {
+    font-size: 38px;
+    margin: 20px 0 37px 210px;
+  }
+
+  .question-b-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hosting-show {
+    display: block;
+  }
+
+  .hosting-show-a {
+    width: 100%;
+  }
+
+  .hosting-show-b {
+    width: 100%;
+  }
+
+  .hosting-show-c {
+    width: 100%;
+  }
+
+  .hosting-show-content {
+    padding : 20px;
+  }
+  /* よくある質問 */
+  /* 収益化してみますか？ */
+  .start-a {
+    height: 430px;
+  }
+
+  .start-a > p {
+    padding-top: 100px;
+    margin:0 110px;
+  }
+
+  .start-a > a {
+    margin: 35px 110px;
+  }
+  /* 収益化してみますか？ */
+  /* メイン */
+
+  /* フッター */
+  /* リンク */
+  .footer-info-a {
+    width: 90%;
+  }
+
+  .company-info > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .company-info li {
+    width: 33%;
+  }
+
+  .community-info > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .community-info li {
+    width: 33%;
+  }
+
+  .host-info > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .host-info li {
+    width: 33%;
+  }
+
+  .support-info > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .support-info li {
+    width: 33%;
+  }
+  /* リンク */
+  /* コピーライト */
+  .footer-info-b {
+    text-align: center;
+  }
+
+  .jp > a > b { 
+    display: inline;
+  }
+
+  .copyright ul {
+    display: block;
+  }
+
+  .copyright li {
+    display: inline;
+  }
+  /* コピーライト */
+  /* フッター */
 }
 /* medium screen */
 
 /* large screen */
-  @media (min-width: 1128) {
+  @media (min-width: 1128px) {
   
   }
 /* large screen */

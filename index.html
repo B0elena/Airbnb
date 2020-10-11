@@ -18,29 +18,31 @@
       <p class="form-title">宿泊施設の内容を記入</p>
       <form action="#">
         <input type="text" value="東京" placeholder="ロケーション">
-        <select class="room-type">
-          <option>まるまる貸し切り</option>
-          <option>個室</option>
-          <option>シェアルーム</option>
-        </select>
-        <select class="guest">
-          <option>ゲスト1人</option>
-          <option>ゲスト2人</option>
-          <option>ゲスト3人</option>
-          <option selected>ゲスト4人</option>
-          <option>ゲスト5人</option>
-          <option>ゲスト6人</option>
-          <option>ゲスト7人</option>
-          <option>ゲスト8人</option>
-          <option>ゲスト9人</option>
-          <option>ゲスト10人</option>
-          <option>ゲスト11人</option>
-          <option>ゲスト12人</option>
-          <option>ゲスト13人</option>
-          <option>ゲスト14人</option>
-          <option>ゲスト15人</option>
-          <option>ゲスト16人</option>
-        </select>
+        <div class="form-select">
+          <select class="room-type">
+            <option>まるまる貸し切り</option>
+            <option>個室</option>
+            <option>シェアルーム</option>
+          </select>
+          <select class="guest">
+            <option>ゲスト1人</option>
+            <option>ゲスト2人</option>
+            <option>ゲスト3人</option>
+            <option selected>ゲスト4人</option>
+            <option>ゲスト5人</option>
+            <option>ゲスト6人</option>
+            <option>ゲスト7人</option>
+            <option>ゲスト8人</option>
+            <option>ゲスト9人</option>
+            <option>ゲスト10人</option>
+            <option>ゲスト11人</option>
+            <option>ゲスト12人</option>
+            <option>ゲスト13人</option>
+            <option>ゲスト14人</option>
+            <option>ゲスト15人</option>
+            <option>ゲスト16人</option>
+          </select>
+        </div>
         <button>はじめる</button>
       </form>
     </div>
@@ -48,13 +50,15 @@
   <main>
     <!-- Airbnbでホストするこれだけの理由 -->
     <section class="reason">
-      <div class="reason-a">
-        <h1>Airbnbでホストするこれだけの理由</h1>
-        <p>どんなお家やお部屋でも、Airbnbなら簡単かつ安全にシェアでき、世界中の旅好きな仲間とつながれます。 予約可能日から料金、ハウスルール、ゲストとの交流程度まで、すべて自分で決めることができます。</p>
-      </div>
-      <div class="reason-b">
-        <h1>困ったときも安心</h1>
-        <p>万一に備えるUS$1,000,000の財物補償、US$1,000,000の賠償責任保険が全予約に自動付帯。ホストのみなさまと建物・家財の安全をお守りするため全力で取り組んでいます。</p>
+      <div>
+        <div class="reason-a">
+          <h1>Airbnbでホストするこれだけの理由</h1>
+          <p>どんなお家やお部屋でも、Airbnbなら簡単かつ安全にシェアでき、世界中の旅好きな仲間とつながれます。 予約可能日から料金、ハウスルール、ゲストとの交流程度まで、すべて自分で決めることができます。</p>
+        </div>
+        <div class="reason-b">
+          <h1>困ったときも安心</h1>
+          <p>万一に備えるUS$1,000,000の財物補償、US$1,000,000の賠償責任保険が全予約に自動付帯。ホストのみなさまと建物・家財の安全をお守りするため全力で取り組んでいます。</p>
+        </div>
       </div>
     </section>
     <!-- Airbnbでホストするこれだけの理由 -->
@@ -80,7 +84,7 @@
           <a href="#">ホストをはじめる方法をチェック</a>
         </div>
       </div>
-      <div>
+      <div class="hosting-b-info">
         <div class="hosting-image">
           <img src="img/a-image3.jpg" alt="">
         </div>
@@ -133,7 +137,7 @@
         <p>ゲストのチェックイン後に、Paypal、直接振り込み、またはその他の利用可能な方法で受取金を送金できます。</p>
         <a href="#">Airbnb収入を得るまでの流れを見る</a>
       </div>
-      <div>
+      <div class="payment-a-info">
         <div class="payment-image">
           <div></div>
         </div>
@@ -175,44 +179,46 @@
       </div>
       <div class="question-b">
         <h2>ホスティングの詳細はこちら</h2>
-        <div>
-          <a href="#">
-            <div class="hosting-show">
-              <div class="hosting-show-a"></div>
-              <!-- <img src="img/a-image4.jpg" alt=""> -->
-              <div class="hosting-show-content">
-                <h3>初期設定</h3>
-                <p>ホスティング入門ガイド</p>
-                <!-- もっと詳しく -->
+        <div class="question-b-content">
+          <div>
+            <a href="#">
+              <div class="hosting-show">
+                <div class="hosting-show-a"></div>
+                <!-- <img src="img/a-image4.jpg" alt=""> -->
+                <div class="hosting-show-content">
+                  <h3>初期設定</h3>
+                  <p>ホスティング入門ガイド</p>
+                  <!-- もっと詳しく -->
+                </div>
               </div>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <div class="hosting-show">
-              <div class="hosting-show-b"></div>
-              <!-- <img src="img/a-image5.jpg" alt=""> -->
-              <div class="hosting-show-content">
-                <h3>安全</h3>
-                <p>ホストを守るAirbnbのしくみ</p>
-                <!-- もっと詳しく -->
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <div class="hosting-show">
+                <div class="hosting-show-b"></div>
+                <!-- <img src="img/a-image5.jpg" alt=""> -->
+                <div class="hosting-show-content">
+                  <h3>安全</h3>
+                  <p>ホストを守るAirbnbのしくみ</p>
+                  <!-- もっと詳しく -->
+                </div>
               </div>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <div class="hosting-show">
-              <div class="hosting-show-c"></div>
-              <!-- <img src="img/a-image1.jpg" alt=""> -->
-              <div class="hosting-show-content">
-                <h3>マネープラン</h3>
-                <p>Airbnbで収益を得るには</p>
-                <!-- もっと詳しく -->
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <div class="hosting-show">
+                <div class="hosting-show-c"></div>
+                <!-- <img src="img/a-image1.jpg" alt=""> -->
+                <div class="hosting-show-content">
+                  <h3>マネープラン</h3>
+                  <p>Airbnbで収益を得るには</p>
+                  <!-- もっと詳しく -->
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -281,6 +287,9 @@
         <img src="img/a-image13.png" alt="" width="15px" height="15px">
         <a href="#"><span>日本語 (JP)</span></a>
         <a href="#">¥　<span>JPY</span></a>
+        <a href="#"><b><i class="fab fa-facebook-f"></i></b></a>
+        <a href="#"><b><i class="fab fa-twitter"></i></b></a>
+        <a href="#"><b><i class="fab fa-instagram"></i></b></a>
       </div>
       <div class="agsl">
         <a href="#">
@@ -290,18 +299,15 @@
       </div>
       <div class="copyright">
         <p>© 2020 Airbnb, Inc. All rights reserved</p>
-        <ul>
-          <li><a href="#">プライバシー</a></li>
-          <li>・<a href="#">利用規約</a></li>
-          <li>・<a href="#">サイトマップ</a></li>
-          <li>・<a href="#">企業情報</a></li>
-        </ul>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="#">プライバシー</a></li>
+            <li>・<a href="#">利用規約</a></li>
+            <li>・<a href="#">サイトマップ</a></li>
+            <li>・<a href="#">企業情報</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div>
-      <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
-      <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-      <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
     </div>
     <!-- コピーライトなど -->
   </footer>
