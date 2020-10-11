@@ -443,7 +443,7 @@ button {
 /* リンク */
 footer {
   border-top: 1px solid #ddd;
-  background: rgb(251, 251, 251);
+  background: rgb(243, 243, 243);
 }
 
 .footer-info-a {
@@ -527,7 +527,8 @@ footer {
 /* コピーライト */
 .footer-info-b {
   width: 93%;
-  margin: 25px auto ;
+  margin: 25px auto 0;
+  padding-bottom: 20px;
 }
 
 .jp {
@@ -543,6 +544,10 @@ footer {
   text-decoration: underline;
 }
 
+.jp > a > b { 
+  display: none;
+}
+
 .agsl div {
   display: inline;
   font-size: 13px;
@@ -552,7 +557,7 @@ footer {
   font-size: 13px;
 }
 
-.copyright > ul {
+.copyright ul {
   display: flex;
   font-size: 14px;
 }
