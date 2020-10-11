@@ -1,0 +1,405 @@
+/* large screen */
+@media (min-width: 1128px) {
+  /* ヘッダー */
+  .herd-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    border: 1px solid #eee;
+    z-index: 30;
+  }
+  
+  .herd-menu > ul {
+    display: flex;
+  }
+
+  .herd-menu > ul > li {
+    margin: 0 20px;
+    font-weight: bold;
+  }
+
+  .menu-btn {
+    width: 90px;
+    height: 35px;
+    margin-top: 25px;
+    margin-right: 70px;
+  }
+
+  .head-image {
+    height: 680px;
+  }
+
+  .head-image p {
+    font-size: 40px;
+    line-height: 42px;
+    color: #333;
+    padding-top: 140px;
+    width: 430px;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    z-index: 20;
+  }
+  /* 宿泊施設の内容を記入 */
+  .form {
+    width: 460px;
+    background: #fff;
+    float: right;
+    position: absolute;
+    top: 150px;
+    right: 90px;
+    padding-top: 150px;
+    border-radius: 8px;
+    z-index: 10;
+  }
+
+  .form-title {
+    margin: 26px 40px 0;
+  }
+
+  input {
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    margin: 0;
+  }
+
+  [value] {
+    margin: 10px 0;
+  }
+  
+  .room-type {
+    width: 100%;
+    height: 45px;
+    margin: 0 5px 0 0;
+  }
+  
+  .guest {
+    width: 70%;
+    height: 45px;
+    margin: 0 0 0 5px;
+  }
+  
+  button {
+    width: 100%;
+    margin: 0 auto 25px;
+  }
+  /* 宿泊施設の内容を記入 */
+  /* ヘッダー */
+
+  /* メイン */
+  /* Airbnbでホストするこれだけの理由 */
+  .reason {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .reason > div {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
+  }
+
+  .reason-a {
+    margin: 0;
+    width: 900px;
+  }
+
+  .reason-a > h1 {
+    margin: 20px 30px 30px;
+  }
+
+  .reason-a > p {
+    margin: 0px 30px;
+  }
+  
+  .reason-b {
+    margin: 0;
+    width: 900px;
+  }
+  
+  .reason-b > h1 {
+    font-size: 23px;
+    color: #444;
+    margin: 0 30px 30px;
+  }
+  
+  .reason-b > p {
+    font-size: 16px;
+    color: #666;
+    line-height: 23px;
+    margin-top: 0;
+  }
+  /* Airbnbでホストするこれだけの理由 */
+  /* 3ステップでホスティング */
+  .hosting {
+    width: 1000px;
+    margin: auto;
+  }
+
+  .hosting > h1 {
+    font-size: 57px;
+    margin: 20px 0 37px 100px;
+
+  }
+
+  .hosting-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .hosting-a {
+    width: 300px;
+  }
+
+  .hosting-image > img {
+    width: 520px;
+    height: 520px;
+  }
+
+  .hosting-b > p {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  /* 3ステップでホスティング */
+  /* 万一のときも安心です */
+  .support {
+    width: 1000px;
+    margin: 20px auto 90px;
+  }
+
+  .support > h1 {
+    font-size: 57px;
+    margin: 20px 0 37px 200px;
+    }
+
+    .support-a > p {
+      width: 400px;
+    }
+
+    .supports {
+      display: flex;
+      justify-content: space-around;
+    }
+  /* 万一のときも安心です */
+  /* シンプルな決済 */
+  .payment {
+    width: 1000px;
+    margin: 20px auto 220px;
+  }
+
+  .payment > h1 {
+    font-size: 57px;
+    margin: 20px 0 37px 320px;
+  }
+
+  .payment-content {
+    display: flex;
+    margin-bottom: 200px;
+  }
+
+  .payment-menu {
+    width: 33%;
+    margin: 0 20px;
+  }
+
+  .payment-image > div {
+    width: 520px;
+    height: 520px;
+   }
+
+   .payment-a {
+     margin: 45px 0 0 30px;
+   }
+
+   .payment-a > h1 {
+    font-size: 35px;
+   }
+  /* シンプルな決済 */
+
+  /* Airbnbについて */
+  .about {
+    width: 1000px;
+    margin: 20px auto 110px;
+  }
+
+  .about > h1 {
+    font-size: 57px;
+    margin: 20px 0 37px 300px;
+  }
+
+  .about-menu {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .about-a {
+    width: 40%;
+  }
+  /* Airbnbについて */
+
+  /* よくある質問 */
+  .question {
+    width: 1000px;
+    margin: 20px auto 110px;
+  }
+
+  .question-a > h1 {
+    font-size: 57px;
+    margin: 20px 0 37px 320px;
+  }
+
+  .question-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .question-list > a {
+    width: 47%;
+    margin: 0 10px;
+  }
+
+  .question-b-content > div {
+    width: 320px;
+    height: 100%;
+  }
+
+  .hosting-show {
+    border: none;
+    box-shadow: none;
+  }
+
+  .hosting-show-a {
+    height: 180px;
+
+  }
+
+  .hosting-show-b {
+    height: 180px;
+  }
+
+  .hosting-show-c {
+    height: 180px;
+  }
+
+  .hosting-show-content-a {
+    display: block;
+    color: #008489;;
+  }
+  /* よくある質問 */
+  /* 収益化してみますか？ */
+  .start {
+    width: 1130px;
+    margin: auto;
+  }
+
+  .start-a > p {
+    font-size: 57px;
+    line-height: 57px;
+    width: 400px;
+    margin:0 150px;
+  }
+
+  .start-a > a {
+    margin: 35px 150px;
+  }
+  /* 収益化してみますか？ */
+  /* メイン */
+
+  /* フッター */
+  /* リンク */
+  footer {
+    margin-top: 70px;
+    border-top: 1px solid #ddd;
+    background: rgb(243, 243, 243);
+  }
+
+  .footer-info-a {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+
+  .company-info > ul {
+    display: block;
+  }
+
+  .community-info > ul {
+    display: block;
+  }
+
+  .host-info > ul {
+    display: block;
+  }
+
+  .support-info > ul {
+    display: block;
+  }
+
+  .company-info {
+    width: 30%;
+  }
+
+  .community-info {
+    width: 30%;
+  }
+
+  .host-info {
+    width: 30%;
+  }
+
+  .support-info {
+    width: 30%;
+  }
+
+  .company-info li {
+    width: 100%;
+  }
+
+  .community-info li {
+    width: 100%;
+  }
+
+  .host-info li {
+    width: 100%;
+  }
+
+  .support-info li {
+    width: 100%;
+  }
+  /* リンク */
+  /* コピーライト */
+  .footer-info-b {
+    text-align: left;
+  }
+
+  .agsl div {
+    display: block;
+  }
+
+  .copyright {
+    display: inline;
+  }
+
+  .copyright > p {
+    display: inline;
+  }
+
+  .copyright ul {
+    display: inline-flex;
+  }
+
+  .jp {
+    float: right;
+    margin: 0;
+  }
+  /* コピーライト */
+  /* フッター */
+}
+/* large screen */

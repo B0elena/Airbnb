@@ -1,3 +1,6 @@
+.herd-menu {
+  display: none;
+}
 /* ヘッダー */
 .head-image {
   background-image: url(../img/a-image10.jpg);
@@ -79,7 +82,7 @@ button {
   margin-bottom: 70px;
 }
 
-.reason-a > h1{
+.reason-a > h1 {
   font-size: 23px;
   color: #444;
 }
@@ -239,24 +242,24 @@ button {
   margin-bottom: 37px;
 }
 
-.payment > div {
+.payment-menu {
   margin-bottom: 40px;
 }
 
-.payment > div:nth-child(4) {
+.payment-menu:nth-child(4) {
   margin-bottom: 100px;
 }
 
-.payment > div > h2 {
+.payment-menu > h2 {
   font-size: 23px;
   margin-bottom: 16px;
 }
 
-.payment > div > p {
+.payment-menu > p {
   font-size: 16px;
 }
 
-.payment > div > a {
+.payment-menu > a {
   font-size: 16px;
   color: #008489;
   display: block;
@@ -344,7 +347,7 @@ button {
   margin-bottom: 37px;
 }
 
-.question-a > a {
+.question-list > a {
   display: block;
   color: #008489;
   font-size: 16px;
@@ -401,6 +404,10 @@ button {
 
 .hosting-show-content > p {
   color: #444;
+}
+
+.hosting-show-content-a {
+  display: none;
 }
 /* よくある質問 */
 
