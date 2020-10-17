@@ -16,6 +16,11 @@
   .herd-menu > ul {
     display: flex;
   }
+  
+  .herd-menu > ul {
+    color: #008489;
+    margin-left: 20px;
+  }
 
   .herd-menu > ul > li {
     margin: 0 20px;
