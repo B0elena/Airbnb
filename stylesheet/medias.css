@@ -260,6 +260,11 @@
     margin: 20px 0 37px 320px;
   }
 
+  /* .question-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  } */
+  
   .question-list {
     display: flex;
     flex-wrap: wrap;
@@ -300,7 +305,7 @@
   /* よくある質問 */
   /* 収益化してみますか？ */
   .start {
-    width: 1130px;
+    max-width: 1280px;
     margin: auto;
   }
 
